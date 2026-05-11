@@ -34,15 +34,15 @@ Build a computer vision pipeline capable of:
 
 | Method | Features | Disadvantages | Suitable? |
 |---|---|---|---|
-| Stereo Vision | No extra hardware, side cameras act as stereo pair, cost effective, full surface depth map possible | Computationally heavier, sensitive to lighting, requires calibration | ✅ Yes |
-| Laser Line Triangulation | Industry standard, highly accurate, fast at conveyor speed, works on low-texture surfaces | Extra laser hardware, calibration complexity, safety considerations | ✅ Yes |
-| Time of Flight (ToF) | Fast depth acquisition, low-light capable, simple setup | Low precision for ±0.3mm accuracy, IR interference | ⚠️ Maybe |
-| Structured Light (RealSense) | Easy integration, full 3D surface reconstruction | Sensitive to factory light/dust, less industrial grade | ❌ No |
-| Photometric Stereo | No special hardware, good dome profiling | Requires multiple exposures and controlled lighting | ❌ No |
-| Fringe Projection | Extremely accurate metrology | Too slow, vibration sensitive, overkill | ❌ No |
-| Confocal / Chromatic Confocal | Micron-level precision | Extremely expensive and slow | ❌ No |
-| Deflectometry | Excellent for reflective surfaces | Biscuits are semi-matte, setup complexity | ❌ No |
-| X-Ray / Terahertz | Detects internal defects | Extremely expensive, not for dimensional measurement | ❌ No |
+| Stereo Vision | No extra hardware, side cameras act as stereo pair, cost effective, full surface depth map possible | Computationally heavier, sensitive to lighting, requires calibration |  Yes |
+| Laser Line Triangulation | Industry standard, highly accurate, fast at conveyor speed, works on low-texture surfaces | Extra laser hardware, calibration complexity, safety considerations |  Yes |
+| Time of Flight (ToF) | Fast depth acquisition, low-light capable, simple setup | Low precision for ±0.3mm accuracy, IR interference |  Maybe |
+| Structured Light (RealSense) | Easy integration, full 3D surface reconstruction | Sensitive to factory light/dust, less industrial grade |  No |
+| Photometric Stereo | No special hardware, good dome profiling | Requires multiple exposures and controlled lighting |  No |
+| Fringe Projection | Extremely accurate metrology | Too slow, vibration sensitive, overkill |  No |
+| Confocal / Chromatic Confocal | Micron-level precision | Extremely expensive and slow |  No |
+| Deflectometry | Excellent for reflective surfaces | Biscuits are semi-matte, setup complexity |  No |
+| X-Ray / Terahertz | Detects internal defects | Extremely expensive, not for dimensional measurement |  No |
 
 ---
 
