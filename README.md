@@ -14,27 +14,6 @@ Build a computer vision pipeline capable of:
 
 ---
 
-# Initial Computer Vision Pipeline
-
-```text
-Input Image
-    ↓
-Preprocessing
-    ↓
-Grayscale Conversion
-    ↓
-Blurring / Noise Reduction
-    ↓
-Thresholding
-    ↓
-Contour Detection
-    ↓
-Shape Approximation
-    ↓
-2D Dimension Estimation
-    ↓
-Pixel → mm Conversion
-
 ---
 
 # Current Progress
@@ -144,5 +123,28 @@ This directly affects:
 - depth estimation reliability
 
 Therefore:
-
 > Global shutter cameras are strongly preferred.
+
+# Initial Computer Vision Pipeline
+
+```text
+Input Image
+    ↓
+Preprocessing
+    ↓
+Grayscale Conversion
+    ↓
+Blurring / Noise Reduction
+    ↓
+Thresholding
+    ↓
+Contour Detection
+    ↓
+Shape Approximation
+    ↓
+2D Dimension Estimation
+    ↓
+Pixel → mm Conversion
+
+---
+
