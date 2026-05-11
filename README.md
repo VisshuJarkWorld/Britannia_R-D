@@ -14,8 +14,6 @@ Build a computer vision pipeline capable of:
 
 ---
 
----
-
 # Current Progress
 
 ## Implemented
